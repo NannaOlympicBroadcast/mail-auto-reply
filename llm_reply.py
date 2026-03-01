@@ -23,7 +23,7 @@ def generate_reply(
     body: str,
     github_context: str,
     client: OpenAI,
-    model: str = "gpt-4o-mini",
+    model: str = "gemini-3-flash-preview",
 ) -> str:
     """Generate an auto-reply using the LLM.
 
